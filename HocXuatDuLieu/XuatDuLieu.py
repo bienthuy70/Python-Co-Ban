@@ -6,6 +6,7 @@ print("{0:>11}".format("Putin"))
 print("{0:>11}".format("Donal Trump"))
 print("{0:>11}".format("Kim"))
 
+# Xuất dữ liệu dạng canh phải
 print("-" * 15)
 print("{0:>2} {1:>11}".format("STT", "Giá trị"))
 print("-" * 15)

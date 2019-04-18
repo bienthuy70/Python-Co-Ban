@@ -1,3 +1,4 @@
+print('Làm chủ Python trong 4 tuần')
 x = 5
 y = 8
 z = x + y

@@ -3,7 +3,7 @@ day = int(input("Nhập ngày: "))
 month = int(input("Nhập tháng: "))
 year = int(input("Nhập năm: "))
 
-# Số ngày trong tháng
+# Số ngày trong
 if month in (1, 3, 5, 7, 8, 10, 12):
     daymax = 31
 elif month in (4, 6, 9, 11):
@@ -37,4 +37,4 @@ else:
     yearnext = year
 
 # Hiển thị ngày kế tiếp
-print("Ngày kế sau ngày",day,"/",month,"/",year,"là ngày:",daynext,"/",monthnext,"/",yearnext)
+print("Ngày kế sau ngày", day, "/", month, "/", year, "là ngày:", daynext, "/", monthnext, "/", yearnext)

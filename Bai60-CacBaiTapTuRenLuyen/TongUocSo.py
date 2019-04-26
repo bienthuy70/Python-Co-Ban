@@ -19,5 +19,7 @@ sothinhvuong = abundant()
 x = int(input("Nhập 1 số nguyên dương: "))
 if sohoanthien(x):
     print(x,"là số hoàn thiện")
-if sothinhvuong(x):
+elif sothinhvuong(x):
     print(x,"là số thịnh vượng")
+else:
+    print(x,"không là số hoàn thiện hoặc thịnh vượng")

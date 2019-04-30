@@ -1,9 +1,4 @@
 def toiuuchuoi(s: str):
-    """
-
-    :type s: object
-    """
-    assert isinstance(s.strip, object)
     s = s.strip()
     l: list = s.split(" ")
     while True:

@@ -1,11 +1,8 @@
 def toiuuchuoi(s: str):
     s = s.strip()
     l: list = s.split(" ")
-    while True:
-        if "" in l:
-            l.remove("")
-        else:
-            break
+    while "" in l:
+        l.remove("")
     s = " ".join(l)
     return s
 

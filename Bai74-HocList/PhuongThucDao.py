@@ -6,10 +6,12 @@ print("*" * 20)
 lst = [8, 0, 2, 100, 20]
 print(lst)
 lst2 = reversed(lst)
+print("Kiểu của lst2 =", type(lst2))
 print(lst)
-lst3 = lst.__reversed__()
+lst3 = list(lst.__reversed__())
 print(lst)
 print(lst2)
+print(next(lst2))
 print(lst3)
 for item in lst2:
     print(item, end="\t")
@@ -20,7 +22,7 @@ for item in lst3:
 print()
 print(lst)
 
-lst=["Obama",'Hahaha',"Ali33","""Kim Jong Un
+lst = ["Obama", 'Hahaha', "Ali33", """Kim Jong Un
 Putin
 Donal Trump"""]
 print(lst)

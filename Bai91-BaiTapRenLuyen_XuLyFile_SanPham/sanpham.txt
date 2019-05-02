@@ -1,0 +1,3 @@
+KV01;Đồng Hồ KEVIN dây đồng móc khóa;120.0
+KV02;Đồng Hồ KEVIN Nam màu đen;150.0
+SSD1;Đế lắp SSD vào Desktop;25.0
